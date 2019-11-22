@@ -1,0 +1,72 @@
+* {
+    letter-spacing: 1px;
+}
+/* 左边导航菜单 start---------- */
+.nav-list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    background: #282B33;
+}
+.nav-list>.navbar>.container-fluid {
+    padding: 0;
+}
+.navbar-header {
+    width: 100%;
+}
+.navbar-header span {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff !important;
+    background-color: #393D49;
+}
+.collapse {
+    padding: 0;
+}
+.collapse>.nav {
+    width: 100%;
+}
+.collapse>.nav>li {
+    width: 100%;
+    cursor: pointer;
+}
+.navbar-header span, .collapse>.nav>li {
+    width: 100%;
+    padding: 0;
+    margin: 0 !important;
+}
+.collapse>.nav>li {
+    color: rgb(219, 217, 217);
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 20px;
+}
+.collapse>.nav>li:not(:last-child):hover {
+    color: #fff;
+    background-color: #393D49;
+}
+.collapse>.nav>li:last-child {
+    color: rgb(33, 252, 5);
+    background-color: #393D49;
+}
+.navbar-inverse {
+    background: none;
+    border: none;
+}
+
+/* 左边导航菜单   end-------------- */
+.right-con {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 150px;
+    bottom: 0;
+    background-color: rgb(245, 245, 245);
+}
+/* 右边内容区   start-------------- */
+
